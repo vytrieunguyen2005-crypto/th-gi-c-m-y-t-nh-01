@@ -1,0 +1,14 @@
+...“Hệ thống hiện tại hoạt động dựa trên so sánh ảnh, nên có thể xảy ra sai số. 
+Để chính xác hơn có thể dùng Deep Learning như FaceNet.”
+
+Thứ nhất, hệ thống load dữ liệu khuôn mặt từ thư mục dataset.
+Thứ hai, sử dụng webcam để thu hình ảnh thời gian thực và phát hiện khuôn mặt.
+Thứ ba, so sánh khuôn mặt vừa nhận với dữ liệu đã lưu để tìm người giống nhất.
+Cuối cùng, nếu độ giống đạt ngưỡng thì ghi nhận điểm danh vào file CSV kèm thời gian.”
+
+
+
+
+python add_user.py
+python main.py
+python stats.py
